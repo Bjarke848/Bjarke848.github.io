@@ -1,39 +1,97 @@
-# My Personal Assistant Landing Page
+# CogniMate
 
-This project is a simple landing page for a personal assistant application that integrates various services including Outlook calendar, iOS calendar, weather updates, and Garmin data for tracking sleep and activities.
+**CogniMate** is your intelligent, privacy-first companion that harmonizes your **health data**, **calendar**, and **environmental context** to help you live and perform at your best. Whether you're optimizing deep work, recovery, or endurance training, CogniMate connects the dots between your **body, time, and tasks**.
 
-## Features
+---
 
-- **Calendar Integration**: Syncs with both Outlook and iOS calendars to keep track of events and appointments.
-- **Weather Updates**: Provides current weather information and forecasts.
-- **Garmin Data Access**: Integrates with Garmin to display sleep and activity data.
+## 🧠 Project Vision
 
-## Project Structure
+CogniMate is built for those who track sleep, workouts, stress, and time—but want the insights to be **actionable**. This system fuses biological rhythms with your daily agenda and external context (e.g. weather, events) into one **adaptive AI agent**.
 
-- `index.html`: The main HTML document for the landing page.
-- `css/style.css`: Contains styles for the landing page.
-- `js/script.js`: Handles interactivity and API calls.
+### Core Goals:
+- 🧬 Integrate **biometric health data** (sleep, HRV, activity)
+- 📆 Sync and interpret **calendar schedules**
+- 🌤️ Add real-world **contextual layers** (weather, location)
+- 🤖 Serve as a **personal assistant** that nudges, reschedules, or reflects
 
-## Getting Started
+---
 
-To set up this project locally, follow these steps:
+## ⚙️ Core Features (Planned)
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/my-landing-page.git
-   ```
+| Feature | Description |
+|--------|-------------|
+| 🗓️ Calendar Intelligence | Integrate Outlook and iOS calendars; detect overload, gaps, and flow |
+| 💤 Sleep-Aware Planner | Use sleep cycles and recovery to modulate task intensity |
+| 📈 Health-Aware Actions | Adjust your agenda based on HRV, fatigue, or stress |
+| ☁️ Context Fusion | Combine weather, time of day, and travel context for planning |
+| 🧠 GPT-Powered Agent | Conversational + automated daily planner via LLM |
+| 🔔 Smart Notifications | Personalized check-ins, nudge logic, fatigue warnings |
 
-2. Navigate to the project directory:
-   ```
-   cd my-landing-page
-   ```
+---
 
-3. Open `index.html` in your web browser to view the landing page.
+## 🔐 Data Sources & APIs
 
-## Contributing
+| Source | Integration |
+|--------|-------------|
+| **Apple Health** | `HealthKit` – native iOS SDK |
+| **Garmin** | Garmin Health API or via iOS Health sync |
+| **Calendar** | Microsoft Graph API + EventKit / CalDAV |
+| **Weather** | Apple WeatherKit, OpenWeather, or Tomorrow.io |
+| **Location** | GeoIP or permission-based mobile access |
 
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+---
 
-## License
+## 🧱 System Architecture (Planned)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Frontend**: Flutter or React Native (agent interface)
+- **Backend**: Python (FastAPI) or Node.js
+- **AI Layer**: GPT-4o via LangChain or custom pipelines
+- **Storage**: PostgreSQL (metadata), InfluxDB or TimescaleDB (biometric time series)
+- **Agent Logic**: Rules + LLM for adaptive agenda generation
+- **Deployment**: Dockerized, self-host or cloud (e.g. Fly.io, AWS, Railway)
+
+---
+
+## 🔜 Near-Term Milestones
+
+- [ ] Apple HealthKit sync with local sleep & HRV extraction
+- [ ] Calendar sync (Outlook + iOS)
+- [ ] GPT-4 agent that reasons over health + time
+- [ ] Simple dashboard for agenda + feedback loop
+- [ ] Garmin API request + webhook setup
+
+---
+
+## 📜 Privacy & Security
+
+CogniMate is designed around **your sovereignty over your data**:
+
+- Local-first where possible
+- No data sharing with 3rd parties
+- OAuth2 and encrypted sync pipelines
+- No advertising or analytics
+
+> You are the product manager of your biology. CogniMate is the assistant.
+
+---
+
+## 🚧 Project Status
+
+**MVP under active development**. If you're an athlete, knowledge worker, or quantified self enthusiast, this is being built with you in mind.
+
+---
+
+## 🔗 Reference APIs
+
+- [Apple HealthKit](https://developer.apple.com/documentation/healthkit)
+- [Garmin Health API](https://developer.garmin.com/health-api/)
+- [Microsoft Graph Calendar API](https://learn.microsoft.com/en-us/graph/api/resources/calendar?view=graph-rest-1.0)
+- [Apple WeatherKit](https://developer.apple.com/weatherkit/)
+
+---
+
+## 🧾 License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---

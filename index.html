@@ -3,32 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Assistant</title>
+    <title>CogniMate - Your Intelligent Health & Performance Companion</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Assistant</h1>
-        <p>Your all-in-one solution for managing your calendar, weather, and fitness data.</p>
-    </header>
-    <main>
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>Integrates with Outlook and iOS Calendar</li>
-                <li>Provides real-time weather updates</li>
-                <li>Access to Garmin data for tracking sleep and activities</li>
-                <li>Customizable notifications and reminders</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Get Started</h2>
-            <p>To begin using your personal assistant, follow the setup instructions in the README file.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 My Personal Assistant. All rights reserved.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="float-item brain">🧠</div>
+                <div class="float-item calendar">📅</div>
+                <div class="float-item health">💚</div>
+                <div class="float-item weather">🌤️</div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="logo-container">
+                <h1 class="hero-title">
+                    <span class="gradient-text">CogniMate</span>
+                </h1>
+                <div class="subtitle-container">
+                    <p class="hero-subtitle">Your intelligent, privacy-first companion that harmonizes your <strong>health data</strong>, <strong>calendar</strong>, and <strong>environmental context</strong></p>
+                </div>
+            </div>
+            <p class="hero-description">Whether you're optimizing deep work, recovery, or endurance training, CogniMate connects the dots between your body, time, and tasks.</p>
+            <div class="cta-buttons">
+                <a href="#features" class="btn-primary">Explore Features</a>
+                <a href="#vision" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="vision-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🧠 Project Vision</h2>
+                <p class="section-description">Built for those who track sleep, workouts, stress, and time—but want the insights to be <strong>actionable</strong>.</p>
+            </div>
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <div class="goal-icon">🧬</div>
+                    <h3>Biometric Integration</h3>
+                    <p>Connect sleep, HRV, and activity data for comprehensive health insights</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-icon">📆</div>
+                    <h3>Smart Scheduling</h3>
+                    <p>Sync and intelligently interpret your calendar schedules</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-icon">🌤️</div>
+                    <h3>Context Awareness</h3>
+                    <p>Add real-world context layers like weather and location</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-icon">🤖</div>
+                    <h3>AI Assistant</h3>
+                    <p>Personal assistant that nudges, reschedules, and reflects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">⚙️ Core Features</h2>
+                <p class="section-description">Planned capabilities that will transform how you manage your health and productivity</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🗓️</div>
+                    <h3>Calendar Intelligence</h3>
+                    <p>Integrate Outlook and iOS calendars; detect overload, gaps, and optimal flow states</p>
+                    <div class="feature-tags">
+                        <span class="tag">Outlook</span>
+                        <span class="tag">iOS</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💤</div>
+                    <h3>Sleep-Aware Planner</h3>
+                    <p>Use sleep cycles and recovery metrics to modulate task intensity and timing</p>
+                    <div class="feature-tags">
+                        <span class="tag">Sleep Tracking</span>
+                        <span class="tag">Recovery</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Health-Aware Actions</h3>
+                    <p>Adjust your agenda based on HRV, fatigue levels, and stress indicators</p>
+                    <div class="feature-tags">
+                        <span class="tag">HRV</span>
+                        <span class="tag">Stress</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Context Fusion</h3>
+                    <p>Combine weather, time of day, and travel context for intelligent planning</p>
+                    <div class="feature-tags">
+                        <span class="tag">Weather</span>
+                        <span class="tag">Location</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>GPT-Powered Agent</h3>
+                    <p>Conversational and automated daily planner powered by advanced AI</p>
+                    <div class="feature-tags">
+                        <span class="tag">GPT-4</span>
+                        <span class="tag">LangChain</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Smart Notifications</h3>
+                    <p>Personalized check-ins, intelligent nudge logic, and fatigue warnings</p>
+                    <div class="feature-tags">
+                        <span class="tag">Personalized</span>
+                        <span class="tag">Smart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section class="architecture-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🧱 System Architecture</h2>
+                <p class="section-description">Modern, scalable tech stack designed for performance and privacy</p>
+            </div>
+            <div class="architecture-grid">
+                <div class="arch-layer">
+                    <h3>Frontend</h3>
+                    <p>Flutter or React Native for cross-platform agent interface</p>
+                </div>
+                <div class="arch-layer">
+                    <h3>Backend</h3>
+                    <p>Python FastAPI or Node.js for robust API services</p>
+                </div>
+                <div class="arch-layer">
+                    <h3>AI Layer</h3>
+                    <p>GPT-4 via LangChain or custom AI pipelines</p>
+                </div>
+                <div class="arch-layer">
+                    <h3>Storage</h3>
+                    <p>PostgreSQL + InfluxDB for metadata and time series</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="privacy-section">
+        <div class="container">
+            <div class="privacy-content">
+                <div class="privacy-text">
+                    <h2 class="section-title">🔐 Privacy & Security First</h2>
+                    <p class="privacy-description">CogniMate is designed around <strong>your sovereignty over your data</strong></p>
+                    <ul class="privacy-features">
+                        <li>🏠 Local-first architecture where possible</li>
+                        <li>🚫 No data sharing with third parties</li>
+                        <li>🔒 OAuth2 and encrypted sync pipelines</li>
+                        <li>📊 No advertising or analytics tracking</li>
+                    </ul>
+                    <blockquote class="privacy-quote">
+                        "You are the product manager of your biology. CogniMate is the assistant."
+                    </blockquote>
+                </div>
+                <div class="privacy-visual">
+                    <div class="shield-icon">🛡️</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Status Section -->
+    <section class="status-section">
+        <div class="container">
+            <div class="status-content">
+                <h2 class="section-title">🚧 Current Status</h2>
+                <div class="status-badge">MVP under active development</div>
+                <p class="status-description">If you're an athlete, knowledge worker, or quantified self enthusiast, this is being built with you in mind.</p>
+                
+                <div class="milestones">
+                    <h3>🔜 Near-Term Milestones</h3>
+                    <div class="milestone-list">
+                        <div class="milestone-item">
+                            <div class="milestone-checkbox">☐</div>
+                            <span>Apple HealthKit sync with local sleep & HRV extraction</span>
+                        </div>
+                        <div class="milestone-item">
+                            <div class="milestone-checkbox">☐</div>
+                            <span>Calendar sync (Outlook + iOS)</span>
+                        </div>
+                        <div class="milestone-item">
+                            <div class="milestone-checkbox">☐</div>
+                            <span>GPT-4 agent that reasons over health + time</span>
+                        </div>
+                        <div class="milestone-item">
+                            <div class="milestone-checkbox">☐</div>
+                            <span>Simple dashboard for agenda + feedback loop</span>
+                        </div>
+                        <div class="milestone-item">
+                            <div class="milestone-checkbox">☐</div>
+                            <span>Garmin API request + webhook setup</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>CogniMate</h4>
+                    <p>Intelligent health & performance companion</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://developer.apple.com/documentation/healthkit">Apple HealthKit</a></li>
+                        <li><a href="https://developer.garmin.com/health-api/">Garmin Health API</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/graph/api/resources/calendar">Microsoft Graph</a></li>
+                        <li><a href="https://developer.apple.com/weatherkit/">Apple WeatherKit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CogniMate. MIT License. Built with privacy in mind.</p>
+            </div>
+        </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
